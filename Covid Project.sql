@@ -1,5 +1,12 @@
 Select * 
 From Covid_Deaths
+order by 3,4
+
+-- when we put dont put continent not null in the location colum asia comes and in the continent colum  null appears which is wrong data and asia ia a continent so we put where
+-- continent not null so that location asia is gone
+
+Select * 
+From Covid_Deaths
 where continent is not null
 order by 3,4
 
