@@ -117,4 +117,3 @@ join Covid_vaccinations vac on dea.location=vac.location and dea.date=vac.date w
 
 select * from "percent population vaccinated"
 
-create view
